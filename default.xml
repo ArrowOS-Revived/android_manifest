@@ -31,6 +31,11 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-11.0" />
 
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           review="https://review.lineageos.org/"
+           revision="lineage-18.1" />
+
   <default revision="refs/tags/android-11.0.0_r46"
            remote="aosp"
            sync-j="4"
@@ -863,5 +868,6 @@
   <!-- Arrow changes -->
   <include name="remove.xml" />
   <include name="arrow.xml" />
+  <include name="lineage.xml" />
 
 </manifest>

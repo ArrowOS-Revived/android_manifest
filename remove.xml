@@ -99,6 +99,7 @@
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/dtc" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
