@@ -30,6 +30,35 @@
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="arrow" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
 
+  <!-- external repos -->
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="arrow" revision="master" clone-depth="1" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
+  <project path="external/guice" name="android_external_guice" remote="arrow" />
+  <project path="external/libavc" name="android_external_libavc" remote="arrow" />
+  <project path="external/libexif" name="android_external_libexif" remote="arrow" />
+  <project path="external/selinux" name="android_external_selinux" remote="arrow" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="arrow" />
+  <project path="external/mksh" name="android_external_mksh" remote="arrow" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="arrow" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="arrow" />
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
+  <project path="external/aac" name="android_external_aac" remote="arrow" />
+  <project path="external/expat" name="android_external_expat" remote="arrow" />
+
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow-rev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow-rev" />
@@ -38,42 +67,6 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow-rev" />
-
-  <!-- packages repos -->
-  <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="arrow-rev" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="arrow" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="arrow" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow-rev" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="arrow" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-rev" />
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
-  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="arrow-rev" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
-  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" />
-  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
-  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow-rev" />
-  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="arrow" />
-  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow" />
-  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow-rev" />
-  <project path="packages/services/Car" name="android_packages_services_Car" remote="arrow" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-11.0-caf" />
@@ -168,34 +161,41 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow-rev" />
 
-  <!-- external repos -->
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="arrow" revision="master" clone-depth="1" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
-  <project path="external/guice" name="android_external_guice" remote="arrow" />
-  <project path="external/libavc" name="android_external_libavc" remote="arrow" />
-  <project path="external/libexif" name="android_external_libexif" remote="arrow" />
-  <project path="external/selinux" name="android_external_selinux" remote="arrow" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
-  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="arrow" />
-  <project path="external/mksh" name="android_external_mksh" remote="arrow" />
-  <project path="external/perfetto" name="android_external_perfetto" remote="arrow" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="arrow" />
-  <project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
-  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
-  <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
-  <project path="external/aac" name="android_external_aac" remote="arrow" />
-  <project path="external/expat" name="android_external_expat" remote="arrow" />
+  <!-- packages repos -->
+  <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="arrow-rev" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="arrow" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="arrow" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow-rev" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="arrow" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-rev" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="arrow-rev" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" />
+  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow-rev" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="arrow" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow" />
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow-rev" />
+  <project path="packages/services/Car" name="android_packages_services_Car" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
