@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifest" name="android_manifest" remote="arrow" />
-  <project path="build/make" name="android_build" remote="arrow" >
+  <project path="manifest" name="android_manifest" remote="arrow-rev" />
+  <project path="build/make" name="android_build" remote="arrow-rev" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,8 +31,8 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
 
   <!-- framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-rev" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-rev" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
@@ -50,7 +50,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow-rev" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="arrow" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
@@ -69,7 +69,7 @@
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow-rev" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="arrow" />
   <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow" />
@@ -207,7 +207,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
-  <project path="system/bt" name="android_system_bt" remote="arrow" />
+  <project path="system/bt" name="android_system_bt" remote="arrow-rev" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
@@ -218,7 +218,7 @@
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/media" name="android_system_media" remote="arrow" />
-  <project path="system/nfc" name="android_system_nfc" remote="arrow" />
+  <project path="system/nfc" name="android_system_nfc" remote="arrow-rev" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="arrow" />
 
   <!-- tools repos -->
@@ -230,7 +230,7 @@
   <!-- vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="arrow" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="arrow-rev" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="arrow" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="arrow" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-11.0-pn5xx" />
@@ -242,7 +242,7 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="arrow"/>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="arrow" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="arrow"/>
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="arrow-rev"/>
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="arrow" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
@@ -255,7 +255,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="arrow" />
-  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow-rev" />
   <project path="vendor/support" name="android_vendor_support" remote="arrow" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
