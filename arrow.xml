@@ -37,7 +37,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow-rev" />
 
   <!-- packages repos -->
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
@@ -60,11 +60,11 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-rev" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="arrow" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="arrow-rev" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
@@ -166,7 +166,7 @@
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow-rev" />
 
   <!-- external repos -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
@@ -234,7 +234,7 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="arrow" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-11.0-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="arrow" revision="arrow-11.0-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-11.0-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow-rev" revision="arrow-11.0-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="arrow" revision="arrow-11.0-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="arrow" />
