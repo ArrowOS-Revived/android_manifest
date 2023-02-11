@@ -4,6 +4,7 @@
 
   <!-- framework repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="frameworks/ml" name="android_frameworks_ml" groups="pdk" remote="lineage" />
 
   <!-- packages repos -->
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
