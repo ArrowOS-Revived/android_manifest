@@ -57,7 +57,7 @@
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
   <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
   <project path="external/aac" name="android_external_aac" remote="arrow" />
-  <project path="external/expat" name="android_external_expat" remote="arrow" />
+  <project path="external/expat" name="android_external_expat" remote="arrow-rev" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow-rev" />
@@ -181,7 +181,7 @@
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow-rev" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-rev" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
