@@ -102,6 +102,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />

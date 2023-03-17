@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- external repos -->
   <project path="external/dtc" name="android_external_dtc" remote="lineage" groups="pdk" />
+  <project path="external/zlib" name="android_external_zlib" remote="lineage" groups="pdk" />
 
   <!-- framework repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
