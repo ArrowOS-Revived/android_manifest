@@ -18,7 +18,7 @@
   </project>
 
   <project path="tools/metalava" name="android_tools_metalava" remote="arrow" />
-  <project path="art" name="android_art" remote="arrow" />
+  <project path="art" name="android_art" remote="arrow-rev" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
   <project path="development" name="android_development" remote="arrow" />
